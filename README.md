@@ -109,3 +109,7 @@ src/
 ## License
 
 MIT — free to use, modify, and distribute.
+
+## Export
+
+Supports exporting the permission matrix as JSON or CSV.
