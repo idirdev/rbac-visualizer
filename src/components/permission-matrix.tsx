@@ -1,7 +1,6 @@
 "use client";
 
 import type { Role, Permission, MatrixCell } from "@/lib/types";
-import type { RBACEngine } from "@/lib/rbac-engine";
 import { cn } from "@/lib/utils";
 import { Check, Minus } from "lucide-react";
 
@@ -10,7 +9,6 @@ interface Props {
   permissions: Permission[];
   matrix: MatrixCell[];
   selectedRole: string | null;
-  engine: RBACEngine;
 }
 
 export function PermissionMatrix({ roles, permissions, matrix, selectedRole }: Props) {

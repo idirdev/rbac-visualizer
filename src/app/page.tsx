@@ -45,7 +45,6 @@ export default function Home() {
               permissions={config.permissions}
               matrix={matrix}
               selectedRole={selectedRole}
-              engine={engine}
             />
           )}
           {view === "graph" && (
