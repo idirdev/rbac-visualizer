@@ -113,3 +113,21 @@ MIT — free to use, modify, and distribute.
 ## Export
 
 Supports exporting the permission matrix as JSON or CSV.
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+RBAC Visualizer est un outil interactif pour visualiser et gérer les configurations de contrôle d'accès basé sur les rôles (RBAC). Il affiche la matrice de permissions, la hiérarchie des rôles et les politiques d'accès en un coup d'œil. Idéal pour auditer et documenter les configurations de sécurité de vos applications.
+
+### Installation
+```bash
+git clone https://github.com/idirdev/rbac-visualizer.git
+cd rbac-visualizer
+npm install
+npm run dev
+```
+
+### Utilisation
+Importez ou configurez vos rôles et permissions dans l'interface, puis explorez la matrice et la hiérarchie générées automatiquement. Consultez la documentation en anglais ci-dessus pour les détails de configuration et d'export.
